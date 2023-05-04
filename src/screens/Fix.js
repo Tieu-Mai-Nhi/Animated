@@ -4,7 +4,7 @@ import React from "react";
 const Fix = () => {
   return (
     <View>
-      <Text>Fix</Text>
+      <Text>FixC7</Text>
     </View>
   );
 };
