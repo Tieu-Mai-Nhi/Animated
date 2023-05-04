@@ -8,7 +8,7 @@ import Animated, {
   withTiming,
 } from "react-native-reanimated";
 
-const SIZE = 107;
+const SIZE = 100;
 export default function Home() {
   const progress = useSharedValue(1);
   const scale = useSharedValue(1);
