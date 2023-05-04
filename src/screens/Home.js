@@ -25,7 +25,7 @@ export default function Home() {
   }, []);
 
   useEffect(() => {
-    progress.value = withRepeat(withTiming(0.5), -1, true);
+    progress.value = withRepeat(withTiming(0.5), -1, true); //-1: lặp lại vô hạn
     scale.value = withRepeat(withSpring(2), -1, true);
   }, []);
 
